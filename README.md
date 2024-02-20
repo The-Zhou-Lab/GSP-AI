@@ -1,13 +1,16 @@
-# Growth stage prediction model -GSP-AI
+# Growth stage prediction model - GSP-AI
+
+Liyan Shen (沈利言) <sup>1</sup>, Jie Dai (戴杰)<sup>1</sup>, Ji Zhou (周济)<sup>1,2*</sup>
+
 The main files are as follows:
 
-• Dataset - Wheat growth stage prediction (WGSP) data, manually scored flowering data and the environment data in three field trails.
+(1) Dataset - The Wheat Growth Stage Prediction (WGSP) data, manually scored flowering data and environment datasets in the trilateral field trails in China, UK and US.
 
-• Jupyter notebook - Mainly contains the image preprocessing code and the model test code.
+(2) Jupyter notebook - Python-based source coce that contains the image pre-processing, the model integration and execution.  
 
-• Model save - The results on GSP-AI models for growth stage prediction are saved. 
+(3) Outputs of the AI model - The GSP-AI model and output results for growth stage prediction. 
 
-We also uploaded the UAV data at key growth stage, including orthomosaics images, ground control point files and plot mask. The plot-level images datasets can be analyzed and processed by the AirMeasurer platform [https://github.com/The-Zhou-Lab/UAV-AirMeasurer](https://github.com/The-Zhou-Lab/UAV-AirMeasurer). Then , the image preprocessing code was used to sampling the center part of every plot (1 m2). Finilly the results of wheat growth stage prediction were obtained by GSP-AI.
+We also uploaded the drone data at key growth stage, including orthomosaics images, ground control point files and plot mask. The plot-level images datasets can be segmented by the AirMeasurer platform [https://github.com/The-Zhou-Lab/UAV-AirMeasurer](https://github.com/The-Zhou-Lab/UAV-AirMeasurer). The image pre-processing code was used to sampling the center part of every plot (1 m^2). Finilly the results of wheat growth stage prediction were obtained by GSP-AI.
 
 To install Python, Anaconda and Libraries
 If you wish to run from the source code provided in this project, you will need to set up Python on your system.
